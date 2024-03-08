@@ -1,11 +1,10 @@
 ﻿
 # pushmess.ado
 
-`pushmess` is a Stata module for sending push notifications using the PushNotifier App and Python package pushnotifier. It can be used to flag groups where observations are not constant and to fill up missings when non-missing values are not conflicting within by-groups.
-
+`pushmess` is a Stata module for sending push notifications using the PushNotifier App and Python package pushnotifier.
 ## Prerequisites
 
-`pushmess` requires Python with the packages [pushnotifier](https://github.com/tomg404/pushnotifier-python) and "requests".
+`pushmess` requires Python with the packages [pushnotifier](https://github.com/tomg404/pushnotifier-python) and [requests](https://pypi.org/project/requests/).
 
 You can install the packages from STATA using pip:
 
@@ -24,7 +23,6 @@ You can install the packages from STATA using pip:
 
 4. Install the Pushnotifier [client](https://pushnotifier.de/apps) on your device (Android, iOS) and register your device in the Webbrowser under [Devices](https://pushnotifier.de/account/api). The device ID will be fed to the "device" option of the pushmess command.
 
-```
 
 ## Example
 To push a message to your device, you will need to provide your API token, user ID, password, app name, and device id, e.g.:
