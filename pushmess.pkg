@@ -1,0 +1,14 @@
+v 3
+
+d pushmess: send push notifications
+d
+d Authors:
+d Jean-Victor Alipour. LMU Munich
+d
+d Requires: Stata version 17.0
+d
+d Distribution-Date: 20240308
+d
+f pushmess.ado
+f pushmesspref.ado
+f pushmess.sthlp
