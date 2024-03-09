@@ -29,8 +29,8 @@ To push a message to your device, you will need to provide your API token, user 
 ```stata
 pushmess, token("ABDCE") userid("myid") password("password123") device("393K") app("com.myapp.app") message("Stata job done") savepref
 ```
-Use option `savepref` to save your credentials in pushmessconfig.ado, so that you don't need to speficy them every time you run the command (use with caution!).
-Use option `stop` to interrupt dofile (optional).
+Use option `savepref` to save your credentials in pushmessconfig.ado so that you don't need to speficy them every time you run the command (**use with caution!**). \
+Use option `stop` to interrupt dofile (optional). \
 Use option `message("some message")` to customize push notification (optional).
 
 
